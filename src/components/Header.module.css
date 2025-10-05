@@ -1,0 +1,38 @@
+.header {
+  max-width: 1000px;
+  margin: 24px auto 12px auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0;
+  color: #496a7a;
+  letter-spacing: 0.5px;
+}
+
+.subtitle {
+  margin: 6px 0 16px 0;
+  color: #6c7c84;
+}
+
+.nav {
+  margin-top: 30px;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 8px 14px;
+  border: 1px solid #9fbac5;
+  border-radius: 8px;
+  transition: transform 0.05s ease-in-out, background-color 0.2s;
+}
+
+.btn:hover {
+  background-color: #e6eef2;
+  transform: translateY(-1px);
+}

@@ -1,0 +1,99 @@
+.container {
+  max-width: 900px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+
+.title {
+  text-align: center;
+  margin: 0 0 16px 0;
+  color: #496a7a;
+}
+
+.panel {
+  background: #e6eef2;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.input {
+  width: 96%;
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: 1px solid #c9d6dc;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 8px 0;
+}
+
+.label {
+  min-width: 64px;
+  color: #5b6c75;
+}
+
+.select {
+  flex: 1;
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid #c9d6dc;
+  background: #fff;
+}
+
+.radioLabel {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #5b6c75;
+}
+
+.placeholder {
+  text-align: center;
+  color: #96a7ae;
+  margin-top: 24px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 14px 0 0 0;
+}
+
+.item {
+  border-bottom: 1px dashed #d9e3e8;
+}
+
+.link {
+  display: flex;
+  gap: 12px;
+  padding: 10px 4px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.link:hover {
+  background: #f5fafc;
+}
+
+.thumb {
+  width: 52px;
+  height: 78px;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.movieTitle {
+  font-weight: 600;
+  color: #7c3a56;
+}
+
+.meta {
+  color: #87959c;
+  font-size: 14px;
+  margin-top: 2px;
+}
